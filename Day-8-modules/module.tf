@@ -1,8 +1,6 @@
 module "dev" {
     source = "../Day-2-basic-code-for-module-source"
-    ami_id = "ami-085ad6ae776d8f09c"
-    type ="t2.nano"
+    ami_id = var.am
+    type =var.te
    
-    
-  
 }
