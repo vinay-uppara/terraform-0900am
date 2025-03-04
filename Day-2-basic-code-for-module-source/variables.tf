@@ -1,18 +1,18 @@
 variable "ami_id" {
     description = "inserting ami value"
     type = string
-    default = ""
+    default = "ami-05b10e08d247fb927"
   
 }
 
 variable "type" {
     type = string
-    default = ""
+    default = "t2.micro"
   
 }
 
 variable "key" {
     type = string
-    default = ""
+    default = "vin"
   
 }
